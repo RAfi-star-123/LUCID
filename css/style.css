@@ -1,0 +1,884 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    background-image: url(../pics/banner.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fffefe;
+    position: relative;
+    padding: 0;
+    margin: 0 8px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dddddd;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    background-color: #008ed6;
+    height: 2px;
+    width: 0%;
+    transition: .4s all ease-in-out;
+
+} 
+
+.navbar-light .navbar-nav .nav-link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: #008ed6;
+    height: 2px;
+    width: 0%;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 48%;
+   
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 48%;
+   
+}
+.txt{
+    width: 50%;
+
+}
+.banner{
+    min-height: 90vh;
+    align-items: center;
+
+}
+.banner h5{
+    
+color: #008ed6;
+    
+font-size: 17px;
+    
+text-transform: uppercase;
+    
+font-weight: 700;
+}
+.banner h1{
+    
+color: #fff;
+    
+padding: 20px 0;
+    
+font-size: 50px;
+    
+font-weight: 600;
+}
+.banner p{
+    
+color: #999999;
+    
+margin-bottom: 50px;
+    
+font-size: 20px;
+}
+.btndownload{
+
+color: #fff;
+
+padding: 0;
+
+padding: 10px 20px;
+
+background: #008ed6;
+
+font-weight: 600;
+
+}
+.btndownload:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .4s all ease-in-out;
+    font-weight: 600;
+
+}
+.btnfeature{
+
+color: #fff;
+
+border: 1px solid #fff;
+
+padding: 10px 20px;
+
+margin-left: 15px;
+
+font-weight: 600;
+
+}
+.btnfeature:hover{
+    background-color: #008ed6;
+    color: #fff;
+    transition: .4s all ease-in-out;
+    border: 1px solid #008ed6;
+    font-weight: 600;
+  
+}
+.phone{
+    
+position: absolute;
+    
+bottom: 0;
+    
+left: 55%;
+}
+.feature{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.feature h6{
+    
+color: #008ed6;
+    
+font-weight: 700;
+    
+text-transform: uppercase;
+    
+font-size: 19px;
+}
+.feature h1{
+    
+font-weight: 600;
+    
+margin-bottom: 50px;
+}
+.feature span{
+
+display: block;
+
+height: 2px;
+
+width: 50px;
+
+position: relative;
+
+margin: auto;
+}
+.feature span::before{
+    content: "";
+    position: absolute;
+    background: #008ed6;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    transition: .4s all ease-in-out;
+}
+.feature span::after{
+    content: "";
+    position: absolute;
+    background: #008ed6;
+    height: 100%;
+    width: 0%;
+    top: 0; 
+    right: 0;
+    transition: .4s all ease-in-out;
+}
+.feature:hover span::before{
+    width: 48%;
+
+}
+.feature:hover span::after{
+    width: 48%;
+
+}
+.box{
+    
+}
+.box i{
+    
+height: 90px;
+    
+width: 90px;
+    
+border: 2px solid #e0e0e0;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+font-size: 30px;
+    
+color: #008ed6;
+    
+border-radius: 50%;
+    
+margin: auto;
+    
+margin-bottom: 20px;
+}
+.box i:hover{
+    color: #fff;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.box h2{
+    
+font-size: 27px;
+    
+}
+.box p{
+    
+padding: 10px 0;
+    
+font-size: 19px;
+    
+color: #999999;
+}
+.phone2{
+
+border-top: 1px solid #f1f1f1;
+
+padding: 50px 0;
+}
+.phone2 img{
+    
+}
+.lists{
+
+margin-top: 50px;
+}
+.lists p{
+    
+padding: 15px 0;
+    
+color: #999999;
+    
+font-size: 19px;
+    
+}
+.lists h1{
+    
+font-weight: 700;
+    
+font-size: 40px;
+}
+.lists h5{
+    
+text-transform: uppercase;
+    
+color: #008ed6;
+    
+margin-bottom: 10;
+    
+font-size: 18px;
+    
+font-weight: 700;
+}
+
+.lists span{
+
+display: block;
+
+height: 2px;
+
+width: 50px;
+
+position: relative;
+
+margin: 15px 0;
+
+}
+    .phone2 span::before{
+        content: "";
+        position: absolute;
+        background: #008ed6;
+        height: 100%;
+        width: 0%;
+        top: 0;
+        left: 0;
+        transition: .4s all ease-in-out;
+    }
+    .phone2 span::after{
+        content: "";
+        position: absolute;
+        background: #008ed6;
+        height: 100%;
+        width: 0%;
+        top: 0; 
+        right: 0;
+        transition: .4s all ease-in-out;
+    }
+    .phone2:hover span::before{
+        width: 48%;
+    
+    }
+    .phone2:hover span::after{
+        width: 48%;
+    }    
+.lists ul{
+    
+list-style: none;
+    
+padding: 0;
+}
+.lists ul li{
+    
+padding: 5px 0;
+    
+font-size: 20px;
+}
+.lists ul li i{
+    
+color: #008ede;
+    
+margin-right: 10px;
+}
+.trophy{
+
+margin-left: -4px;
+}
+.mouse{
+
+}
+.bolt{
+
+margin-left: -2px;
+}
+.meter{
+
+margin-left: -4px;
+}
+.phone3{
+
+background: #f2f2f2;
+}
+.p3 img{
+    width: 120%;
+}
+.writing{
+    
+margin-top: 50px;
+}
+.writing h5{
+    
+text-transform: uppercase;
+    
+color: #008ed6;
+    
+margin-bottom: 10;
+    
+font-size: 18px;
+    
+font-weight: 700;
+}
+.writing h1{
+    
+font-weight: 600;
+    
+font-size: 40px;
+}
+.writing p{
+     
+padding: 10px 0;
+     
+color:#999999;
+     
+font-size: 19px;
+     
+}
+
+.writing span{
+
+display: block;
+
+height: 2px;
+
+width: 50px;
+
+position: relative;
+
+margin: 15px 0;
+}
+.phone3 span::before{
+        content: "";
+        position: absolute;
+        background: #008ed6;
+        height: 100%;
+        width: 0%;
+        top: 0;
+        left: 0;
+        transition: .4s all ease-in-out;
+}
+.phone3 span::after{
+        content: "";
+        position: absolute;
+        background: #008ed6;
+        height: 100%;
+        width: 0%;
+        top: 0; 
+        right: 0;
+        transition: .4s all ease-in-out;
+}
+.phone3:hover span::before{
+        width: 48%;
+    
+}
+.phone3:hover span::after{
+        width: 48%;
+} 
+
+.blurbg{
+    background-image: url(../pics/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    color: #fff;
+   
+}
+.blurbg h1{
+
+margin-bottom: 40px;
+
+font-weight: 600;
+}
+.blurbg i{
+    
+font-size: 20px;
+}
+.blurbg p{
+
+color: #008ed6;
+
+text-transform: uppercase;
+
+font-weight: 600;
+}
+.lebel{
+
+}
+
+.client_details{
+
+display: flex;
+
+width: 260px;
+
+align-items: center;
+
+justify-content: space-between;
+
+margin-top: 25px;
+}
+.cl_img{
+
+}
+.cl_info{
+
+}
+.cl_info h4{
+    
+font-size: 16px;
+}
+.cl_info h5{
+    
+font-size: 15px;
+    
+font-weight: 600;
+}
+.lebel span{
+
+display: block;
+
+height: 2px;
+
+width: 50px;
+
+position: relative;
+
+margin: auto;
+
+margin-bottom: 70px;
+
+}
+.lebel span::before{
+    content: "";
+    position: absolute;
+    background: #008ed6;
+     height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0;
+    transition: .4s all ease-in-out;
+}
+.lebel span::after{
+    content: "";
+        position: absolute;
+        background: #008ed6;
+        height: 100%;
+        width: 0%;
+        top: 0; 
+        right: 0;
+        transition: .4s all ease-in-out;
+}
+.blurbg:hover span::before{
+        width: 48%;
+    
+}
+.blurbg:hover span::after{
+        width: 48%;
+} 
+.blackbg{
+    background-color: #15141a;
+    color: #fff;
+}
+.blackbg h2{
+
+font-weight: 600;
+}
+.blackbg span{
+    
+font-weight: 300;
+}
+.items{
+    align-items: center;
+}
+.owl-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.owl-dots .owl-dot{
+    
+    margin: 5px;
+}
+.owl-dots .owl-dot span{
+    display: block;
+    height: 7px;
+    width: 7px;
+    border: 1px solid rgb(192, 192, 192);
+    background: transparent;
+    border-radius: 50%;
+
+}
+.owl-dots .active span{
+    background-color: #fff;
+    height: 15px;
+    width: 15px;
+
+}
+.pricing{
+
+}
+.pricing_n_plans{
+
+}
+.pricing_n_plans p{
+    
+color: #008ed6;
+    
+text-transform: uppercase;
+    
+font-weight: 700;
+    
+font-size: 17px;
+}
+.pricing_n_plans h1{
+    
+margin-bottom: 70PX;
+    
+font-weight: 600;
+    
+}
+.pricing_n_plans span{
+
+    display: block;
+    
+    height: 2px;
+    
+    width: 50px;
+    
+    position: relative;
+    
+    margin: auto;
+    
+    margin-bottom: 70px;
+    
+    }
+    .pricing_n_plans span::before{
+        content: "";
+        position: absolute;
+        background: #008ed6;
+         height: 100%;
+        width: 0%;
+        top: 0;
+        left: 0;
+        transition: .4s all ease-in-out;
+    }
+    .pricing_n_plans span::after{
+        content: "";
+            position: absolute;
+            background: #008ed6;
+            height: 100%;
+            width: 0%;
+            top: 0; 
+            right: 0;
+            transition: .4s all ease-in-out;
+    }
+    .pricing:hover span::before{
+            width: 48%;
+        
+    }
+    .pricing:hover span::after{
+            width: 48%;
+    }
+.pricebox h2{
+    font-weight: 700;
+    
+    padding: 30px 0;
+}
+.pricebox{
+
+border: 2px solid #e0e0e0;
+
+padding: 0;
+}
+.price{
+
+}
+.price h1{
+    
+font-size: 75px;
+    
+padding-top: 20px;
+    
+font-weight: 600;
+    
+border-top: 1px solid #e0e0e0;
+}
+.price sup{
+    
+font-size: 40px;
+}
+.price h5{
+    
+border-bottom: 2px solid #e0e0e0e0;
+    
+padding-bottom: 30px;
+    
+color: #999999;
+}
+.pricebox p {
+    
+padding: 20px 25px;
+    
+color: #999999;
+    
+font-size: 20px;
+}
+.pricebox span{
+    
+color: #008ed6;
+}
+.ordrnow{
+
+border: 1px solid #9999;
+
+padding: 10px 35px;
+
+color: #008ed6;
+
+margin-bottom: 25px;
+
+font-weight: 700;
+}
+.pricebox:hover h2{
+    color: #008ed6;
+    
+}
+.pricebox:hover .price{
+    background-color: #008ed6;
+    color: #fff;
+    
+}
+.pricebox:hover h5{
+    background-color: #008ed6;
+    color: #fff;
+    
+}
+.pricebox:hover .ordrnow{
+    background-color: #008ed6;
+    color: #fff;
+    
+}
+.contact{
+    background-color: #ededed;
+    position: relative;
+    height: 750px;
+    padding-bottom: 500x;
+}
+.contact p{
+
+text-transform: uppercase;
+
+color: #008ed6;
+
+font-weight: 700;
+
+font-size: 18px;
+}
+.contact h1{
+    
+font-weight: 600;
+    
+margin-bottom: 50px;
+    
+font-size: 45px;
+}
+.contact span{
+
+    display: block;
+    
+    height: 2px;
+    
+    width: 50px;
+    
+    position: relative;
+    
+    margin: auto;
+    
+    margin-bottom: 70px;
+    
+    }
+    .contact span::before{
+        content: "";
+        position: absolute;
+        background: #008ed6;
+         height: 100%;
+        width: 0%;
+        top: 0;
+        left: 0;
+        transition: .4s all ease-in-out;
+    }
+    .contact span::after{
+        content: "";
+            position: absolute;
+            background: #008ed6;
+            height: 100%;
+            width: 0%;
+            top: 0; 
+            right: 0;
+            transition: .4s all ease-in-out;
+    }
+    .contact:hover span::before{
+            width: 48%;
+        
+    }
+    .contact:hover span::after{
+            width: 48%;
+    }
+.address{
+
+}
+.address i{
+    
+color: #008ed6;
+    
+font-size: 35px;
+    
+margin-bottom: 15px;
+}
+.address h5{
+    
+color: #999999;
+    
+}
+.contact_form{
+
+background: #15141a;
+
+position: absolute;
+
+padding: 70px 50px;
+
+bottom: -40px;
+
+left: 50%;
+
+transform: translate(-50%, 0%);
+
+width: 50%;
+}
+.contact_form form input{
+    
+background: transparent;
+}
+.contact_form form textarea{
+    
+background: transparent;
+    
+height: 146px;
+}
+.contact_form form input[type="submit"]{
+    
+padding: 10px 20px;
+    
+background: #008ed6;
+    
+color: #fff;
+    
+border-radius: 5px;
+}
+.msg{
+    text-align: right;
+}
+footer{
+    background-color: #15141a;
+    padding: 30px 0;
+}
+.logo i{
+    
+color: #444348;
+    
+font-size: 20px;
+cursor: pointer;
+}
+.logo i:hover{
+    color: #008ed6;
+}
+footer ul{
+    
+list-style: none;
+    
+padding: 0;
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: space-between;
+}
+footer ul li{
+    
+}
+footer p{
+    
+color: #444348;
+text-transform: uppercasea;
+}
+
+
+
+
+
